@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    color: black;
+    font-family: sans-serif;
+}
+
+    .navbar {
+        padding: 50px;
+        background-color: rgb(243 244 245);
+        padding: 10px;
+    }
+
+        .nav-left {
+            width: 20vw;
+            padding: 1vh 1vw;
+        }
+
+        .nav-right {
+            width: 50vw;
+            text-align: right;
+            padding: 1vh 1vw;
+        }
+
+        .nav-action {
+            font-size: 1.2em;
+            margin: auto 1vw;
+            text-decoration: none;
+            color: black;
+        }
+
+
+.float-parent {
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+    .body {
+        background-color: white;
+        width: 60vw;
+        margin: 2em 20vw;
+    }
+
+        .profile-card {
+            background-color: rgb(243 244 245);
+            border-radius: 10px;
+        }
+
+            .profile-card-left {
+                width: 33%;
+                height: 100%;
+                display: inline-block;
+                border-right: solid black 2px;
+            }
+
+                .profile-card-left-wrapper {
+                    padding: 5% 15%;
+                }
+
+                    .profile-card-left-wrapper span {
+                        font-size: 1.2em;
+                    }
+
+                    .profile-card-left-wrapper a {
+                        color: black;
+                    }
+
+                    .carrot-logo {
+                        width: 2em;
+                    }
+
+                    #balance {
+                        font-size: 4em;
+                        margin-left: 10px;
+                    }
+
+            .profile-card-right {
+                width: 62%;
+                height: 100%;
+                display: inline-block;
+            }
+                .profile-box {
+                    margin: 5%;
+                }
+
+                    .profile-box-img {
+                        width: 30%;
+                        text-align: right;
+                    }
+
+                        .img-round {
+                            width: 70%;
+                            border-radius: 50%;
+                            margin-right: 20%;
+                            border: solid black 1px;
+                        }
+                    
+                    .profile-box-detail {
+                        width: 70%;
+                    }
+
+                        .profile-name {
+                            overflow-wrap: break-word;
+                            font-size: 2em;
+                        }
+
+                        .profile-box-detail em {
+                            font-size: 1.2em;
+                        }
+
+.bazaar {
+    margin-top: 2em;
+}
+
+.bazaar-title h2 {
+    margin-bottom: 0.5em;
+}
+
+.bazaar-items-row {
+    text-align: center;
+}
+
+.bazaar-items-row a {
+    text-decoration: none;
+}
+
+.bazaar-item-card {
+    border-radius: 10px;
+    border: solid black 1px;
+    width: 20%;
+    display: inline-block;
+    margin: 1%;
+    text-align: left;
+    color: black;
+}
+
+    .bazaar-item-img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        max-width: 100%;
+        background-color: rgb(243 244 245);
+    }
+
+    .bazaar-item-detail {
+        padding: 5% 10%;
+    }
+
+                        .carrot-logo-small {
+                            width: 1em;
+                        }
+
+.footer {
+    padding: 2vh;
+    background-color: rgb(243 244 245);
+    text-align: center;
+}
